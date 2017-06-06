@@ -1,20 +1,27 @@
 <html>
-<title> test website </title>
-<head> <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','1076037874');</script>
-<!-- End Google Tag Manager -->
-</head>
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=1076037874"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-<h1> HI this is just a test website </h1>
-<h2> seems to be working out right </h2>
-</body>
-
+    <head>
+        <title>Color Game</title>
+        <link rel="stylesheet" type="text/css" href="colorgame.css">
+    </head>
+    <body>
+        <h1>The Great<br><span id="colorDisplay">RGB</span><br>Color Game in beta:(</h1>
+        
+        <div id="bar">
+            <button id="newColor">New Colors</button>
+            <span id="message"></span>
+            <button id="easyBtn">Easy</button>
+            <button id="hardBtn" class="selected">Hard</button>
+        </div>
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        
+        <script src="colorgame.js"></script>
+        
+    </body>
 </html>
